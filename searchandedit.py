@@ -3,7 +3,7 @@ import string
 from xlwings.constants import DeleteShiftDirection,InsertShiftDirection
 ###################################################################
 
-bookName = r'C:\Users\BaboBaboo\Desktop\pro\test.xlsx'  #local file
+bookName = r'///test.xlsx'  #local file
 wb = xw.Book(bookName)
 sheetName = 'Sheet1'  #sheet name
 sht = wb.sheets[sheetName]
